@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Paradise Inn</title>
+
+  <!-- CSS stylesheet-->
+
+  <link rel="stylesheet" href="hotel.css">
+
+  <!-- Bootstrap link-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+  <!-- JavaScript -->
+
+  <link href="css/t-datepicker.min.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+  <script src="js/t-datepicker.min.js"></script>
+
+  <!-- Links -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/template.css" rel="stylesheet" media="screen">
+  <script src="https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"></script>
+  <script>
+    if (top !== self) top.location.replace(self.location.href); // Hey, don't iframe my iframe!
+  </script>
+
+  <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-SEKJ4E9T4H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-SEKJ4E9T4H');
+  </script>
+
+
+</head>
+
+<body>
+
+  <div id="homepage">
+
+    <h1 class="hotel-name"><span style="background-color: #3e432e;">Paradise Inn</span></h1>
+    <p class="subtitle">a step closer to serenity</p>
+
+
+
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/resort1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/resort2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/resort3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/resort4.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+      </button>
+    </div>
+    <h2><span class="intro">a 5-star hotel situated in the hills of Coorg, <br>catering to every vacation type, from a villa on rent, <br>a humble abode amidst the wildlife <br>to a modern house, we have everything.</span></h2>
+  </div>
+  <div class="rooms">
+    <h2 class="booking">Check out our exquisite cottages and villas</h1>
+      <div class="row" style="margin-right:0; margin-left:0;">
+        <div class="col-sm-12 col-md-4 col-lg-2">
+          <div class="card text-white bg-light mb-3">
+            <div class="card-body">
+              <img class="card-img-top" src="images/villa1.jpg" alt=""><br>
+              <div class="card-title">
+                <h6>Our 3-BHK Mill-field lodge is a well furnished home, open for booking! </h6>
+                <h6 class="details"><button class="btn btn-secondary">Click here for more details!</button></h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-2">
+          <div class="card text-white bg-light mb-3">
+            <div class="card-body">
+              <img class="card-img-top" src="images/villa2.jpg" alt="">
+              <h6>The Glade is the most busy and almost occupied everytime villa!</h6>
+              <h6 class="details"><button class="btn btn-secondary">Click here for more details!</button></h6>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+          <div class="card text-white bg-light mb-3">
+            <div class="card-body">
+              <img class="card-img-top" src="images/villa3.jpg" alt="">
+              <h6> a fan of bird watching? <br> Ivy cottage is the right choice!</h6>
+              <h6 class="details"><button class="btn btn-secondary">Click here for more details!</button></h6>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+          <div class="card text-white bg-light mb-3">
+            <div class="card-body">
+              <img class="card-img-top" src="images/villa4.jpg" alt="">
+              <h6>Mill house is ideal for a family looking for home in the mountains!</h6>
+              <h6 class="details"><button class="btn btn-secondary">Click here for more details!</button></h6>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+          <div class="card text-white bg-light mb-3">
+            <div class="card-body">
+              <img class="card-img-top" src="images/villa5.jpg" alt="">
+              <h6>The Corner Cottage, a nice vintage cabin, with a warm fireplace</h6>
+              <h6 class="details"> <button class="btn btn-secondary">Click here for more details!</button> </h6>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-2">
+          <div class="card text-white bg-light mb-3">
+            <div class="card-body">
+              <img class="card-img-top" src="images/villa6.jpg" alt="">
+              <h6>The Willow Cottage, inspired by scottish architecture. </h6>
+              <h6 class="details"> <button class="btn btn-secondary">Click here for more details!</button> </h6>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card text-white bg-light mb-3">
+            <div class="card-body">
+              <img class="card-img-top" src="images/villa7.jpg" alt="">
+              <h6>The White House, books yours and enjoy the luxurious property!!</h6>
+              <h6 class="details"> <button class="btn btn-secondary">Click here for more details!</button></h6>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card text-white bg-light mb-3">
+            <div class="card-body">
+              <img class="card-img-top" src="images/villa8.jpg" alt="">
+              <h6>Feel the breeze in our La Maison, built by a french architect.</h6>
+              <h6 class="details"><button class="btn btn-secondary">Click here for more details!</button> </h6>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="card text-white bg-light mb-3">
+            <div class="card-body">
+              <img class="card-img-top" src="images/villa9.jpg" alt="">
+              <h6>Enjoy your stay in Sunnyside Villa, situated facing the tea plantation!</h6>
+              <h6 class="details"><button class="btn btn-secondary">Click here for more details!</button></h6>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col col-md-12">
+          <div class="Booking-form">
+            <h3 class="booking-title">Make a reservation here</h3><br><br>
+              <form action="#" class="form">
+                <div class="form-box">
+                  <div class="check-date">
+                    <label for="date-in" class="credentials">Check In: </label>
+                    <input type="date" class="date-input hasDatepicker" id="date-in"><br><br>
+                    <label for="date-out" class="credentials">Check out: </label>
+                    <input type="date" class="date-input hasDatepicker" name="date-out" value=""><br><br>
+                    <div class="select-option">
+                      <label for="select-option" class="credentials">Number of Adults:</label>
+                      <select class="Guests" name="">
+                        <option value="">tap to choose</option>
+                        <option value="">2 Adults</option>
+                        <option value="">3-4 Adults</option>
+                        <option value="">more than 4 Adults</option>
+                      </select><br><br>
+                      <label for="select-option" class="credentials">Number of Kids:</label>
+                      <select class="Guests" name="">
+                        <option value="">tap to choose</option>
+                        <option value="">2 kids</option>
+                        <option value="">3-4 kids</option>
+                        <option value="">more than 4 kids</option>
+                      </select><br><br>
+                      <button class="btn-submit btn-light btn-lg btn-outline-dark"type="submit" name="button">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<div class="Contact-info">
+
+<h4 class="contact">Getting here.</h4>
+<h5>Mekeri Village, Kaggodlu Post, Near, Subash Nagar, Madikeri, Karnataka 571201</h5>
+
+</div>
+
+</body>
+
+</html>
