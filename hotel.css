@@ -112,7 +112,7 @@ h3{
   padding-bottom: 30px;
 }
 .credentials{
-  padding-top: 20px;
+  padding-top: 40px;
   color: white;
   font-family: 'Cinzel', serif;
   text-align: left;
@@ -129,7 +129,7 @@ h3{
 
 /* Contact info */
 .Contact-info{
-  background-color: #a4b787;
+  background-color: #493323;
   position: relative;
   top: 20px;
 }
@@ -139,4 +139,47 @@ h3{
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  text-align: center;
+
+}
+h5{
+    font-family: 'Cinzel', serif;
+  text-align: center;
+  padding-top: 2px;
+  color: white;
+  padding-bottom: 30px;
+}
+.socialmedia{
+  background-color: #9dad7f;
+}
+h4{
+  font-family: 'Cinzel', serif;
+  font-size: 17px;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
+.icons{
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+}
+.insta{
+  padding-right: 10px;
+
+}
+.twitter{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.facebook{
+  padding-left: 10px;
+}
+.medias{
+  size: 20%;
+  color: white;
+}
+p{
+  text-align: center;
+  color: white;
 }
